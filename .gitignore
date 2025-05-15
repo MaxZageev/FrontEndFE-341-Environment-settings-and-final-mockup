@@ -1,4 +1,19 @@
-node_modules
-/dist/
+# Node
+node_modules/
+
+# Webpack build output
+dist/
+build/
+
+# CSS build output
 *.css
 *.css.map
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VSCode / system
+.vscode/
+.DS_Store
